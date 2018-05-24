@@ -4,27 +4,67 @@ body {
     background-color: #777;
     width: 960px;
     font-size: 18px;
+    margin: auto;
 
 }
 
-header,
-nav,
-section,
-aside,
-footer {
-    background-color: #ebebeb;
-
+header {
+    background: #ebebeb;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
-article {
-    color: #ebebeb;
-    background-color: #777;
-
+nav {
+    background: #ebebeb;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
-h1,
-p {
+section {
+    background: #ebebeb;
     color: #777;
-    background-color: #ebebeb;
-    
+    width: 55%;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+
+article { 
+    background: #777;
+    color: #ebebeb;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    background: #ebebeb;
+    color: #777;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+aside {
+    background: #ebebeb;
+    color: #777;
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+footer {
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+
 }
