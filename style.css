@@ -10,7 +10,7 @@ body {
 
 header {
     background: #ebebeb;
-    width: 100%;
+    width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 20px;
@@ -19,7 +19,7 @@ header {
 
 nav {
     background: #ebebeb;
-    width: 100%;
+    width: auto;
     margin-bottom: 10px;
     padding: 20px;
     text-align: center;
@@ -43,7 +43,8 @@ aside {
     padding: 20px;
     text-align: center;
     float: left;
-    height: 287px;
+    height: 292px;
+    
 }
 
 .clearfix::after {
@@ -55,6 +56,14 @@ aside {
 article { 
     background: #777;
     color: #ebebeb;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    background: #ebebeb;
+    color: #777;
     margin-bottom: 10px;
     padding: 20px;
     text-align: center;
@@ -76,14 +85,9 @@ footer {
     text-align: center;
     clear: both;
     overflow: auto;
-    width: 100%;
+    width: auto;
 }
 
 div {
     line-height: 48px;
-}
-
-.boldtext {
-    font-weight: bolder;
-    
 }
